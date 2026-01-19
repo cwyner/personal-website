@@ -65,7 +65,8 @@
 @layer base {
   /* using HSL to define colors */
 
-  :root { /* light mode */ 
+  :root {
+    /* light mode */
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
 
@@ -99,7 +100,9 @@
 
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
   }
 }
 
@@ -145,7 +148,7 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground;
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
          hover:scale-105 active:scale-95;
 }

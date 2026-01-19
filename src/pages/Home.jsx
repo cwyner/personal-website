@@ -19,7 +19,7 @@ export const Home = () => {
       <Navbar />
       {/* Main Content */}
       <main>
-        <HeroSection />.
+        <HeroSection />
         <AboutSection />
         <SkillsSection />
         <ProjectSection />

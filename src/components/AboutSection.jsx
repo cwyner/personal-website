@@ -10,28 +10,21 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="spacy-y-6">
-            <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
-            </h3>
 
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Hello! My name is Charles Wyner.
+              I graduated from Georgia Tech with a Bachelor's of Science in Computer Science in 2025.
+              I turned to CS after a brief stint in the business school as I found myself seeking a bigger challenge in my studies.
+              Computer Science was the sweet spot for me: the coursework really developed my critical thinking and problem solving skills,
+              and it was exciting enough that I didn't feel overwhelmed when it got difficult.
             </p>
-
+            <br />
             <p className="text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Following graduation, I got a job as a Junior Software Engineer at Lead Out Software in Roswell, GA where I currently work today.
+              The experience has been an amazing introduction into the industry. I've not only been able to practice writing effective algorithms,
+              but I've also gotten to work first-hand on designing complex systems, a skill that con get overlooked in university.
+              I've also been in charge of building production-ready API integrations, as both an inbound and outbound provider.
+              And most exciting of all, I'm currently working on building an agentic RAG pipeline as part of an AI insights feature for Divvy Contracts!
             </p>
 
             <div className="flex flex-col  sm:flex-row gap-4 pt-4 justify-center">
@@ -56,7 +49,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development </h4>
+                  <h4 className="font-semibold text-lg"> Full Stack Web App Developer </h4>
                   <p className="text-muted-foreground">
                     Creating Responsive Websites ...
                   </p>
@@ -69,7 +62,7 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> People Person </h4>
+                  <h4 className="font-semibold text-lg"> AI-centered Development </h4>
                   <p className="text-muted-foreground">
                     Creating Responsive Websites ...
                   </p>

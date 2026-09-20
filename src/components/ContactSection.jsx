@@ -17,9 +17,8 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Below you can find my personal email address, phone number, and links
-          to my LinkedIn and Instagram. Please feel free to contact me using any
-          of these methods!
+          Thanks for taking the time to check out my portfolio.
+          If you'd like to contact me to discuss anything further, please feel free to use any of the methods below!
         </p>
 
         <div className="flex flex-col items-center md:flex-row md:items-start justify-center gap-16">

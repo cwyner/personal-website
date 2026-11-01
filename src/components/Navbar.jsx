@@ -15,18 +15,10 @@ const navItems = [
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
-      setIsDarkMode(true);
-      document.documentElement.classList.add("dark");
-    } else {
-      setIsDarkMode(false);
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
+  // the inline script in index.html sets the theme class before first paint
+  const [isDarkMode, setIsDarkMode] = useState(() =>
+    document.documentElement.classList.contains("dark")
+  );
 
   const toggleTheme = () => {
     if (isDarkMode) {

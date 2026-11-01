@@ -5,19 +5,19 @@ const projects = [
     id: 1,
     title: "ATP Tournament Predictor",
     description: "A prediction website for professional tennis tournaments!",
-    image: "/projects/project1.jpg",
+    image: "/projects/tennis.jpg",
     tags: ["Python", "Firebase"],
     // demoUrl: "#",
     gitHubUrl: "https://github.com/cwyner/atp-tournament-predictor",
   },
   {
     id: 2,
-    title: "ATP Tournament Predictor",
-    description: "A prediction website for professional tennis tournaments!",
-    image: "/projects/project1.jpg",
-    tags: ["Python", "Firebase"],
+    title: "NYT Spelling Bee Solver",
+    description: "Achieve Queen Bee status with this NYT Spelling Bee Solver.",
+    image: "/projects/spelling-bee.png",
+    tags: ["Java", "JavaScript", "React"],
     // demoUrl: "#",
-    gitHubUrl: "#",
+    gitHubUrl: "https://github.com/cwyner/spelling-bee-bot",
   },
   {
     id: 3,
@@ -39,10 +39,10 @@ export const ProjectSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+          Below are a few of my favorite projects I've done. On each card you can find
+          a link to the artifact itself as well as its accompanying GitHub repo, so please
+          take a look! Additionally, the button below the project cards will take you to my
+          GitHub profile.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

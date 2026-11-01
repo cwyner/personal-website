@@ -15,7 +15,7 @@ const projects = [
     title: "NYT Spelling Bee Solver",
     description: "Achieve Queen Bee status with this NYT Spelling Bee Solver.",
     image: "/projects/spelling-bee.png",
-    tags: ["Java", "JavaScript", "React"],
+    tags: ["Java", "TypeScript", "Angular"],
     // demoUrl: "#",
     gitHubUrl: "https://github.com/cwyner/spelling-bee-bot",
   },

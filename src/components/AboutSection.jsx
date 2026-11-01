@@ -40,7 +40,7 @@ export const AboutSection = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6">
+          <div className="hidden md:block">
             <img src="me.jpg" alt="Charles Wyner" />
           </div>
         </div>

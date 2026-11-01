@@ -24,7 +24,7 @@ export const AboutSection = () => {
               The experience has been an amazing introduction into the industry. I've not only been able to practice writing effective algorithms,
               but I've also gotten to work first-hand on designing complex systems, a skill that con get overlooked in university.
               I've also been in charge of building production-ready API integrations, as both an inbound and outbound provider.
-              And most exciting of all, I'm currently working on building an agentic RAG pipeline as part of an AI insights feature for Divvy Contracts!
+              And most exciting of all, I'm currently working on building the MCP server for the AI insights feature of Divvy Contracts!
             </p>
 
             <div className="flex flex-col  sm:flex-row gap-4 pt-4 justify-center">

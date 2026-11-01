@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: "NYT Spelling Bee Solver",
-    description: "Achieve Queen Bee status with this NYT Spelling Bee Solver.",
+    description: "It feels like cheating, because it is.",
     image: "/projects/spelling-bee.png",
     tags: ["Java", "TypeScript", "Angular"],
     // demoUrl: "#",
@@ -21,12 +21,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "ATP Tournament Predictor",
-    description: "A prediction website for professional tennis tournaments!",
-    image: "/projects/project1.jpg",
-    tags: ["Python", "Firebase"],
+    title: "Spotify Player",
+    description: "Software for a physical Spotify player device.",
+    image: "/projects/spotify.jpg",
+    tags: ["Arduino"],
     // demoUrl: "#",
-    gitHubUrl: "#",
+    gitHubUrl: "https://github.com/cwyner/spotify-player",
   },
 ];
 
@@ -49,7 +49,7 @@ export const ProjectSection = () => {
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group flex flex-col bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -59,7 +59,7 @@ export const ProjectSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
@@ -74,7 +74,7 @@ export const ProjectSection = () => {
                 <p className="text-muted-foreground text-sm mb-2">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mt-auto">
                   <div className="flex space-x-3">
                     <a
                       target="_blank"

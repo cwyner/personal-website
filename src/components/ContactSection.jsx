@@ -1,4 +1,5 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -63,6 +64,13 @@ export const ContactSection = () => {
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Instagram />
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/cwyner"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Github />
               </a>
             </div>
           </div>

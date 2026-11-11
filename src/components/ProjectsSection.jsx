@@ -13,10 +13,10 @@ const projects = [
   {
     id: 2,
     title: "NYT Spelling Bee Solver",
-    description: "It feels like cheating, because it is.",
+    description: "NYT Games hates him for this one simple trick...",
     image: "/projects/spelling-bee.png",
-    tags: ["Java", "TypeScript", "Angular"],
-    // demoUrl: "#",
+    tags: ["Java", "TypeScript", "React"],
+    demoUrl: "https://spelling-bee-bot.vercel.app/",
     gitHubUrl: "https://github.com/cwyner/spelling-bee-bot",
   },
   {
